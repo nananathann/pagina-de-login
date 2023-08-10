@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import img from './'
 import './App.css'
+import { imagem1 } from '../image/teste.png'
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       </header>
 
       <main>
-        <img src={img} alt="" />
         <form action="">
           <div>
             <label htmlFor="usuario">Usuário</label>
@@ -26,6 +25,7 @@ function App() {
 
         </form>
       </main>
+      <img src= { imagem1 } alt="imagem de login" />
     </>
   )
 }
