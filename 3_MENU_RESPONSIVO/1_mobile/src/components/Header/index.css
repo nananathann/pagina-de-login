@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.botao-menu {
+    border: 1px solid #ccc;
+    height: 4rem;
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu {
+    border: 1px solid #ccc;
+    width: 11rem;
+    height: calc(100vh - 4rem);
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    background: white;
+    transition: .4s;
+}
+
+.menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    
+}
+
+.menu.close {
+    translate: -100%;
+}
